@@ -8,7 +8,7 @@ dependencies = [
     "hdbscan>=0.8.40",
     "jupyterlab>=4.4.7",
     "kilosort==4.1.7",
-    "spikeinterface[full,widgets]>=0.104.4",
+    "spikeinterface[full,widgets]>=0.104.5",
     "pynapple==0.9.2",
     "PySide6<6.8",
     "pyqtgraph",
@@ -17,10 +17,3 @@ dependencies = [
     "spython",
     "panel"
 ]
-
-[tool.uv.sources]
-
-neo = {url = "https://github.com/NeuralEnsemble/python-neo/archive/master.zip"}
-spikeinterface = {url = "https://github.com/SpikeInterface/spikeinterface/archive/main.zip"}
-spikeinterface-gui = {url = "https://github.com/SpikeInterface/spikeinterface-gui/archive/main.zip"}
-
